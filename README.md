@@ -33,3 +33,5 @@ Deployment over Internet:
 Git repository LInk:
 . https://github.com/sundar3942/zippyserver.github.io.git 
 . Go with the master branch to access the code
+
+Urls for the particular API calls are given in app.http.
