@@ -1,0 +1,21 @@
+GET http://localhost:5000/
+###
+
+POST http://localhost:5000/task/
+Content-Type: application/json
+
+{
+  "title": "task3",
+  "description": "this is task3@123"
+}
+###
+PUT http://localhost:5000/task/3/
+Content-Type: application/json
+
+{
+  "title": "task3",
+  "description": "task3 is not simple"
+}
+###
+DELETE http://localhost:5000/task/3/
+###
